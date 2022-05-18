@@ -1,0 +1,28 @@
+{
+  "unversionedId": "oauth/mobile-app",
+  "id": "oauth/mobile-app",
+  "title": "Mobile authentication",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi asperiores culpa, delectus eos quasi qui quis quod sapiente tempora! Alias corporis, facere harum laboriosam neque odio quam quia quidem?",
+  "source": "@site/docs/oauth/mobile-app.mdx",
+  "sourceDirName": "oauth",
+  "slug": "/oauth/mobile-app",
+  "permalink": "/docs/oauth/mobile-app",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/oauth/mobile-app.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Mobile authentication",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/oauth/intro"
+  },
+  "next": {
+    "title": "Register user",
+    "permalink": "/docs/oauth/register-user"
+  }
+}

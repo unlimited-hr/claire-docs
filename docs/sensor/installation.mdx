@@ -1,0 +1,62 @@
+---
+sidebar_position: 4
+title: Development setup
+description: How to develop for claire AI Sensor
+---
+
+## Installatie
+
+Om de NodeMCU te kunnen connecten met de Aruino IDE. Moeten we via de boardermanager de NodeMCU toevoegen. Zie hier een tutorial van je hoe je dat moet doen
+
+https://create.arduino.cc/projecthub/electropeak/getting-started-w-nodemcu-esp8266-on-arduino-ide-28184f
+
+Wanneer dat is gedaan moeten we een paar libraries installeren. Dit doen we via de library manager.
+
+De volgende libraries moeten we installeren:
+
+* WiFiManager by tzapu
+* ArduinoJson by bblanchon
+* esp8266 by ESP8266 Community
+* Adafruit SGP30 Sensor by Adafruit
+* DHT sensor library by Adafruit
+* Adafruit Unified Sensor by Adafruit
+
+Als de libraries zijn geinstalleerd kunnen we de code uploaden naar de NodeMCU bord en is de luchtmeter klaar voor gebruik.
+
+Als we het device voor de eerste keer opstarten maakt het een 'Access point' aan
+
+![prototype](https://raw.githubusercontent.com/unlimited-hr/air-meter/main/wifiinstellen.jpeg?token=GHSAT0AAAAAABUWOEO72SLIVWNMDQYH5FVAYUFI2CA)
+
+Vervolgens vullen we de wi-fi gegevens in het de api-key.
+
+![prototype](https://raw.githubusercontent.com/unlimited-hr/air-meter/main/wifiinstellen.jpeg?token=GHSAT0AAAAAABUWOEO6UR76S75RAIN2OLQYYUFIZJA)
+
+Tot slot gaan we opslaan en is het IoT device ready to go.
+
+## Microcontroller and sensoren
+
+### Microcontroller
+
+* NodeMCU (esp8266)
+
+### Sensoren
+
+* SGP30
+* DHT11/22
+
+## Connecties
+
+### SGP30 sensor
+
+ * GND on GND
+ * VCC on 3.3V
+ * SCL on esp8266 D1
+ * SDA on esp8266 D2
+
+### DHT11/DHT22 sensor
+
+ * GND on GND
+ * VCC on 3.3V
+ * sensor to D5 / GPIO14
+
+![ciruit-diagram](https://raw.githubusercontent.com/unlimited-hr/air-meter/main/ciruit-diagram.png?token=GHSAT0AAAAAABUWOEO62H7NBRCW67ITJUPIYUFIZUA)

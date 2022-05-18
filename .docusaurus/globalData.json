@@ -1,0 +1,88 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "api/development-setup",
+              "path": "/docs/api/development-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/endpoints",
+              "path": "/docs/api/endpoints",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/index",
+              "path": "/docs/api/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/intro",
+              "path": "/docs/api/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "oauth/index",
+              "path": "/docs/oauth/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "oauth/intro",
+              "path": "/docs/oauth/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "oauth/mobile-app",
+              "path": "/docs/oauth/mobile-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "oauth/register-user",
+              "path": "/docs/oauth/register-user",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sensor/index",
+              "path": "/docs/sensor/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sensor/installation",
+              "path": "/docs/sensor/installation",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

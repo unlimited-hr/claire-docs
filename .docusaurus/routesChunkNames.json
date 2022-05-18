@@ -1,0 +1,114 @@
+{
+  "/__docusaurus/debug-a3c": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    }
+  },
+  "/__docusaurus/debug/config-d7c": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    }
+  },
+  "/__docusaurus/debug/content-602": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-bca": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    }
+  },
+  "/__docusaurus/debug/metadata-2fc": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    }
+  },
+  "/__docusaurus/debug/registry-a1b": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    }
+  },
+  "/__docusaurus/debug/routes-5c9": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-f-103"
+    }
+  },
+  "/markdown-page-277": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pageb-95-136"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-4c3": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---docse-66-453"
+    },
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/-621": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-4-ed-831"
+  },
+  "/docs/api/-240": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-9-d-0-23b"
+  },
+  "/docs/api/development-setup-758": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-development-setupc-79-3ba"
+  },
+  "/docs/api/endpoints-070": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-endpointsf-00-5d1"
+  },
+  "/docs/api/intro-0c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-intro-626-312"
+  },
+  "/docs/intro-99a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introf-84-2b4"
+  },
+  "/docs/oauth/-4d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-oauth-b-9-e-7cc"
+  },
+  "/docs/oauth/intro-341": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-oauth-intro-6-e-6-6ea"
+  },
+  "/docs/oauth/mobile-app-c5f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-oauth-mobile-app-56-d-b11"
+  },
+  "/docs/oauth/register-user-388": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-oauth-register-user-4-fa-0f1"
+  },
+  "/docs/sensor/-ed8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sensor-6-f-5-aa1"
+  },
+  "/docs/sensor/installation-22e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sensor-installation-01-f-760"
+  },
+  "/-911": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-pageb-95-136"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

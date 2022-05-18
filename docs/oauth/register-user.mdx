@@ -1,0 +1,47 @@
+---
+sidebar_position: 3
+title: Register user
+---
+import {Highlight} from '../../src/components/Highlight';
+
+### Authorize
+> Authorizes user to login mobile app
+
+
+
+<Highlight color="#25c2a0">POST</Highlight> : ``` https://oauth.claire-ai.site/oauth/authorize ```
+
+
+
+<br/> <br/>
+
+Header | value                                                    | Required |
+------|----------------------------------------------------------|---------|
+Authorization | ```'Bearer eyJhbGciOiJSUzI1NiJ9.eyJ1c2VyIjp7ImlkIjo1'``` | YES
+Content-Type | ``` 'application/json'```                                | NO      |
+Accept | ``` 'application/json'```                                | YES     |
+
+```js
+const headers = new Headers();
+headers.append("Authorization", "Bearer <yourtoken>");
+headers.append("Content-Type", "application/x-www-form-urlencoded");
+
+const urlencoded = new URLSearchParams();
+urlencoded.append("deviceID", "3038");
+
+const requestOptions = {
+    method: 'POST',
+    headers: headers,
+    body: urlencoded,
+    redirect: 'follow'
+};
+
+fetch("https://oauth.claire-ai.site/oauth/register/device/", requestOptions)
+    .then(response => response.json())
+    .then(data => {
+            // todo: Extract device id from data
+            console.log(data)
+        }
+    )
+    .catch(error => console.log('error', error));
+```

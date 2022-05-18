@@ -1,0 +1,29 @@
+{
+  "unversionedId": "api/development-setup",
+  "id": "api/development-setup",
+  "title": "API Development",
+  "description": "API Development documentation",
+  "source": "@site/docs/api/development-setup.mdx",
+  "sourceDirName": "api",
+  "slug": "/api/development-setup",
+  "permalink": "/docs/api/development-setup",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/development-setup.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "API Development",
+    "description": "API Development documentation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Claire API",
+    "permalink": "/docs/api/"
+  },
+  "next": {
+    "title": "Endpoints",
+    "permalink": "/docs/api/endpoints"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "sensor/installation",
+  "id": "sensor/installation",
+  "title": "Development setup",
+  "description": "How to develop for claire AI Sensor",
+  "source": "@site/docs/sensor/installation.mdx",
+  "sourceDirName": "sensor",
+  "slug": "/sensor/installation",
+  "permalink": "/docs/sensor/installation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sensor/installation.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Development setup",
+    "description": "How to develop for claire AI Sensor"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor source code",
+    "permalink": "/docs/sensor/"
+  }
+}

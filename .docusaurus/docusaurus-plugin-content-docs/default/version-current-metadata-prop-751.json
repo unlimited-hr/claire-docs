@@ -1,0 +1,168 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Documentation Claire AI",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "What is Claire AI?",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Claire API",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "API Development",
+            "href": "/docs/api/development-setup",
+            "docId": "api/development-setup"
+          },
+          {
+            "type": "link",
+            "label": "Endpoints",
+            "href": "/docs/api/endpoints",
+            "docId": "api/endpoints"
+          },
+          {
+            "type": "link",
+            "label": "What is Claire AI?",
+            "href": "/docs/api/intro",
+            "docId": "api/intro"
+          }
+        ],
+        "href": "/docs/api/"
+      },
+      {
+        "type": "category",
+        "label": "OAuth",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/oauth/intro",
+            "docId": "oauth/intro"
+          },
+          {
+            "type": "link",
+            "label": "Mobile authentication",
+            "href": "/docs/oauth/mobile-app",
+            "docId": "oauth/mobile-app"
+          },
+          {
+            "type": "link",
+            "label": "Register user",
+            "href": "/docs/oauth/register-user",
+            "docId": "oauth/register-user"
+          }
+        ],
+        "href": "/docs/oauth/"
+      },
+      {
+        "type": "category",
+        "label": "Sensor source code",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Development setup",
+            "href": "/docs/sensor/installation",
+            "docId": "sensor/installation"
+          }
+        ],
+        "href": "/docs/sensor/"
+      }
+    ]
+  },
+  "docs": {
+    "api/development-setup": {
+      "id": "api/development-setup",
+      "title": "API Development",
+      "description": "API Development documentation",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/endpoints": {
+      "id": "api/endpoints",
+      "title": "Endpoints",
+      "description": "API Documentation",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/index": {
+      "id": "api/index",
+      "title": "Claire API",
+      "description": "Claire API",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/intro": {
+      "id": "api/intro",
+      "title": "What is Claire AI?",
+      "description": "Claire AI is a project",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Documentation Claire AI",
+      "description": "Official documentation for claire AI Mobile, Developer documentation and more!",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "What is Claire AI?",
+      "description": "Claire AI is a project",
+      "sidebar": "tutorialSidebar"
+    },
+    "oauth/index": {
+      "id": "oauth/index",
+      "title": "OAuth",
+      "description": "Official OAuth documentation for the Claire AI Project. Developer guide to interact with the oauth server.",
+      "sidebar": "tutorialSidebar"
+    },
+    "oauth/intro": {
+      "id": "oauth/intro",
+      "title": "Introduction",
+      "description": "POST /oauth/authorize",
+      "sidebar": "tutorialSidebar"
+    },
+    "oauth/mobile-app": {
+      "id": "oauth/mobile-app",
+      "title": "Mobile authentication",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi asperiores culpa, delectus eos quasi qui quis quod sapiente tempora! Alias corporis, facere harum laboriosam neque odio quam quia quidem?",
+      "sidebar": "tutorialSidebar"
+    },
+    "oauth/register-user": {
+      "id": "oauth/register-user",
+      "title": "Register user",
+      "description": "Authorize",
+      "sidebar": "tutorialSidebar"
+    },
+    "sensor/index": {
+      "id": "sensor/index",
+      "title": "Sensor source code",
+      "description": "Official documentation for claire AI Mobile, Developer documentation and more!",
+      "sidebar": "tutorialSidebar"
+    },
+    "sensor/installation": {
+      "id": "sensor/installation",
+      "title": "Development setup",
+      "description": "How to develop for claire AI Sensor",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
