@@ -1,0 +1,57 @@
+---
+sidebar_position: 3
+title: User registration
+---
+import {Highlight} from '../../src/components/Highlight';
+
+
+## User registration
+Via mobile app
+
+
+<Highlight color="#25c2a0">POST</Highlight>
+
+
+> Registers new user in database
+
+```
+https://oauth.claire-ai.site/user/create
+```
+
+<br/>
+
+Allowed headers
+
+| Header        | value                                                    | Required |
+|---------------|----------------------------------------------------------|----------|
+| Authorization | ```'Bearer eyJhbGciOiJSUzI1NiJ9.eyJ1c2VyIjp7ImlkIjo1'``` | YES      |
+| Content-Type  | ``` 'application/json'```                                | NO       |
+| Accept        | ``` 'application/json'```                                | YES      |
+
+Example
+```js
+const headers = new Headers();
+headers.append("Authorization", "Bearer <yourtoken>");
+headers.append("Content-Type", "application/x-www-form-urlencoded");
+
+const urlencoded = new URLSearchParams();
+urlencoded.append("name", "nigel");
+urlencoded.append("email", "example@mail.com");
+urlencoded.append("password", "my-new-password");
+
+const requestOptions = {
+    method: 'POST',
+    headers: headers,
+    body: urlencoded,
+    redirect: 'follow'
+};
+
+fetch("https://oauth.claire-ai.site/user/create", requestOptions)
+    .then(response => response.json())
+    .then(data => {
+            // todo: Save access token in local storage
+            console.log(data)
+        }
+    )
+    .catch(error => console.log('error', error));
+```

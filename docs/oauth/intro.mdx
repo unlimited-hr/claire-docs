@@ -5,10 +5,40 @@ title: Introduction
 
 import {Highlight} from '../../src/components/Highlight';
 
+A user will be authenticated with the given credentials. After succesful authentication the client receives an access token to acces the api for user data server.
 
-<Highlight color="#25c2a0">POST</Highlight> /oauth/authorize
+    <img src="https://camo.githubusercontent.com/126dc1ea9d541c7f10c563dd473ebf16b5ad0d0d2ab534b7a6ea531c3d8a5857/68747470733a2f2f696d6167652e736c696465736861726563646e2e636f6d2f6f6175746832737072696e672d3135303932393130343731302d6c7661312d617070363839312f39352f6f61757468322d616e642d737072696e672d73656375726974792d32332d3633382e6a70673f63623d31343433353233373731" alt="Oauth flow">
 
-# Json Web Token
+## Json Web Token (JWT)
+JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA.
 
+## Example token
 
+Header
+
+```js
+`{
+  "alg": "RS256"
+}`
+```
+
+Payload
+```js
+`{
+  "user": {
+    "id": 1,
+    "name": "Nigel",
+    "email": "example@mail.com",
+    "updatedAt": "2022-06-06T10:20:05.215Z",
+    "createdAt": "2022-06-06T10:20:05.215Z"
+  },
+  "iat": 1654510805,
+  "iss": "app",
+  "aud": "api:claire",
+  "exp": 1656930005
+}`
+
+```
+
+<i>auth0.com. (n.d.). JWT.IO - JSON Web Tokens Introduction. JSON Web Tokens - Jwt.Io. <a href={"https://jwt.io/introduction/"} target={"_blank"}>https://jwt.io/introduction/</a></i>
 

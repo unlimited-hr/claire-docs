@@ -1,26 +1,31 @@
 ---
-sidebar_position: 3
-title: Register user
+sidebar_position: 4
+title: Authorize user
 ---
 import {Highlight} from '../../src/components/Highlight';
 
 ### Authorize
+
+<Highlight color="#25c2a0">POST</Highlight>
+
+
 > Authorizes user to login mobile app
 
-
-
-<Highlight color="#25c2a0">POST</Highlight> : ``` https://oauth.claire-ai.site/oauth/authorize ```
-
-
+```
+https://oauth.claire-ai.site/oauth/authorize
+```
 
 <br/> <br/>
+Allowed headers
 
-Header | value                                                    | Required |
-------|----------------------------------------------------------|---------|
-Authorization | ```'Bearer eyJhbGciOiJSUzI1NiJ9.eyJ1c2VyIjp7ImlkIjo1'``` | YES
-Content-Type | ``` 'application/json'```                                | NO      |
-Accept | ``` 'application/json'```                                | YES     |
+| Header        | value                                                    | Required |
+|---------------|----------------------------------------------------------|----------|
+| Authorization | ```'Bearer eyJhbGciOiJSUzI1NiJ9.eyJ1c2VyIjp7ImlkIjo1'``` | YES      |
+| Content-Type  | ``` 'application/json'```                                | NO       |
+| Accept        | ``` 'application/json'```                                | YES      |
 
+
+Example
 ```js
 const headers = new Headers();
 headers.append("Authorization", "Bearer <yourtoken>");
